@@ -1,7 +1,7 @@
 var path = require('path');
 module.exports = {
   entry: {
-    app: ["./js/wacky_painter.js"]
+    app: ["./js/main.js"]
   },
   output: {
     path: path.join(__dirname, 'js'),

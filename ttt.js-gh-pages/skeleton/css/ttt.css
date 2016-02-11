@@ -1,0 +1,48 @@
+#board {
+  width: 300px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+li {
+  float: left;
+}
+
+.square {
+
+  width: 100px;
+  height: 100px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  background-color: grey;
+  list-style: none;
+  border: 1px solid white;
+  background-size: cover;
+  /*background-image: url("./images/x.jpg");*/
+}
+
+.win {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  transition: outline 0.5s, background-color 0.5s;
+  background-size: cover;
+  background-image: url("./images/victory.jpg");
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul.group {
+  margin: 0;
+  width: 500px;
+  padding: 0;
+}
+
+.square:hover {
+  background-color: yellow;
+}
